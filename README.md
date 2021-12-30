@@ -24,7 +24,7 @@ Upon successful deployment, you should see findings from different accounts.
 
 You should see findings from multiple products.
 
-<img src="docs/images/Regions_750.png" width="600">
+<img src="docs/images/Products_750.png" width="600">
 
 Below is an example of aggregating findings from multiple regions.
 
