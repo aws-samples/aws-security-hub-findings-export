@@ -186,6 +186,10 @@ Resources:
                       key = account_id + '/' + product_name + '/'+region
                       logger.info( f'key is {key}')
 
+                      # Ensure Athena compatibility, remove '-' from 'detail-type'
+                      item['detailType'] = item['detail-type']
+                      item.pop('detail-type', None)
+
                       if key not in output:
                           output[key] = [item]
                       else:
